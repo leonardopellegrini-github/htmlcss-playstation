@@ -49,16 +49,20 @@ header img{
   height: 20px;
 }
 
-/*JUMBOTRON*/
-.jumbotron{
+.slide{
   color: white;
-  background-image: url(img/jumbo-bg.png);
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
 
-.jumbotron img{
+/*JUMBOTRON*/
+
+.returnal{
+  background-image: url(img/jumbo-bg.png);
+}
+
+.slide img{
   width: 360px;
 }
 
@@ -77,12 +81,40 @@ header img{
 
 /*BARRA PRODOTTI*/
 
+.brp img{
+  width: 100%;
+}
+
+.opaco{
+  opacity: 0.5;
+}
+
+.opaco:hover{
+  opacity: 1;
+}
+
+.active{
+  margin-bottom: 10px;
+  border-bottom: 2px solid blue;
+}
 
 /*JUMBO 2*/
+
+.onlytwo{
+  background-image: url(img/it-takes-two-hero-banner-desktop.jpg);
+}
 
 
 /*NUOVE USCITE*/
 
+.nu{
+  background-color: #1F1F1F;
+  color: white;
+}
+
+.nu img{
+  width: 100%;
+}
 
 /*ESPLORA PLAYSTATION 4 Card*/
 
