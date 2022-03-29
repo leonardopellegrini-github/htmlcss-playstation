@@ -1,8 +1,39 @@
+body{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.h600{
+  height: 600px;
+}
+
+a{
+  border-radius: 25px;
+}
+
 /*HEADER*/
 
+header .top{
+  height: 50px;
+  background-color: black;
+}
+
+header .menu{
+  height: 100px;
+  background-color: blue;
+}
 
 /*JUMBOTRON*/
+.jumbotron{
+  color: white;
+  background-image: url(img/jumbo-bg.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
 
+.jumbotron img{
+  width: 360px;
+}
 
 /*SEZIONE RETTANGOLI SOTTO JUMBO*/
 
