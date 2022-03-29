@@ -6,8 +6,31 @@ body{
   height: 600px;
 }
 
+.paddingpoco{
+  padding: 10px;
+}
+
+.paddingtanto{
+  padding: 50px;
+}
+
+.margintanto{
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
 a{
-  border-radius: 25px;
+  border-radius: 25px !important;
+  padding: 10px 10px !important;
+}
+
+h5{
+  color: #2988D5;
+  transform: uppercase;
+}
+
+.gr{
+  color: #9C9C9C;
 }
 
 /*HEADER*/
@@ -18,8 +41,12 @@ header .top{
 }
 
 header .menu{
-  height: 100px;
+  height: 80px;
   background-color: blue;
+}
+
+header img{
+  height: 20px;
 }
 
 /*JUMBOTRON*/
@@ -37,9 +64,16 @@ header .menu{
 
 /*SEZIONE RETTANGOLI SOTTO JUMBO*/
 
+.sju .row .col img{
+  width: 100%;
+  border-radius: 15px;
+}
 
 /*ECCO LA PLAYSTATION 5*/
 
+.elp5 img{
+  width: 100%;
+}
 
 /*BARRA PRODOTTI*/
 
