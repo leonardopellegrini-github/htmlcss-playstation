@@ -9,6 +9,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300&display=swap" rel="stylesheet">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.css' integrity='sha512-M9yHeAbo9J8KSZVvOi5PEo4WrL6LWxbS+cvh6faIEPPqHQXhxilgCSJ/L2tTqRf73GmI4+tNy8OWSsQuwXc4fw==' crossorigin='anonymous'/>
   <title>Playstation</title>
 </head>
 <body>
@@ -24,8 +25,29 @@
      </div>
     </div>
 
-    <div class="container-fluid menu"></div>
-
+    <nav class="container-fluid menu">
+      <div class="row d-flex justify-content-around align-items-center">
+        <div class="col-10 col-md-6 logo">
+          <ol>
+            <li>Giochi</li>
+            <li>Hardware</li>
+            <li>Servizi</li>
+            <li>Novità</li>
+            <li>Fai acquisti</li>
+            <li>Supporto</li>
+          </ol>
+        </div>
+        <div class="col-6 text-end d-none d-md-block">
+          <ol>
+            <li>My Playstation</li>
+            <li> <a href="">Accedi</a></li>
+            <li><i class="fas fa-search"></i></li>
+          </ol>
+        </div>
+        <div class="col-2 text-end d-md-none">
+          <i id="hamburger" class="fa-solid fa-bars"></i></div>
+      </div>
+    </nav>
   </header>
 
   <main>
@@ -33,7 +55,7 @@
   <!--JUMBOTRON-->
   <div class="container-fluid d-flex align-items-end returnal slide h600 paddingtanto">
     <div class="row align-items-end">
-      <div class="col-4">
+      <div class="col-4 col-md-12 col-sm-12 col-sx-12">
         <img src="img/returnal-hero-banner-logo.png" alt="logo returnal">
         <h1 class="paddingpoco">Rompi il cerchio</h1>
         <p class="paddingpoco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error cum numquam sit quod ipsa quisquam perspiciatis sint. Error, adipisci! Commodi, repellendus ea exercitationem nulla eum atque est odio debitis</p>
@@ -243,7 +265,7 @@
         <p class="paddingpoco">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur error cum numquam sit quod ipsa quisquam perspiciatis sint. Error, adipisci! Commodi, repellendus ea exercitationem nulla eum atque est odio debitis</p>
         <a class="btn btn-primary paddingpoco" href="#" role="button">Acquista ora</a>
       </div>
-      <div class="col-6 text-center d-none d-md-block">
+      <div class="col-6 text-center">
         <img class="immplus" src="img/ps-plus-april-monthly-games-featured-image-block.png" alt="logo returnal">
       </div>
     </div>
@@ -296,14 +318,72 @@
   </div>
 
   <!--Social MEDIA-->
-  <div>
-    
+  <div class="container social margintanto text-center">
+    <div class="row">
+      <div class="col">
+        <h1>Seguici sui Social Media</h1>
+      </div>
+    </div>
+    <div class="row d-flex justify-content-center align-items-center margintanto">
+      <div class="col-2">
+        <img src="img/twitter.jpg" alt="Twitter">
+      </div>
+      <div class="col-2">
+        <img src="img/instagram.jpg" alt="Instagram">
+      </div>
+      <div class="col-2">
+        <img src="img/facebook.jpg" alt="Facebook">
+      </div>
+      <div class="col-2">
+        <img src="img/youtube.png" alt="Youtube">
+      </div>
+    </div>
   </div>
 
   </main>
 
   <!--FOOTER DIVISO in 3 colonne sopra e 1 sotto-->
   <footer>
+    <div class="container-fluid paddingtanto">
+      <div class="row paddingtanto">
+        <div class="col-5">
+          <img id="logofo" src="img/ps-footer.svg" alt="">
+          <p><i class="fa-solid fa-globe"></i> Country/Italy</p>
+        </div>
+        <div class="col-2">
+          <ul>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+          </ul>
+        </div>
+        <div class="col-2">
+          <ul>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+            <li><a href="#">Link footer</a></li>
+          </ul>
+        </div>
+        <div id="siecol" class="col-5">
+          <img id="sie" src="img/sie-logo.svg" alt="">
+          <p>Website ©2022 Sony Interactive Entertainment Europe Limited. Tutti i contenuti, nomi dei giochi, nomi commerciali e/o di abbigliamento, marchi registrati, grafica e immagini associati sono marchi registrati e/o materiale protetto da copyright dei rispettivi proprietari. Tutti i diritti riservati.</p>
+        </div>
+        
+      </div>
+    </div>
 
   </footer>
   

@@ -153,5 +153,34 @@ header img{
 
 /*Social MEDIA*/
 
+.social img{
+  width: 100%;
+}
 
 /*FOOTER DIVISO in 3 colonne sopra e 1 sotto*/
+footer{
+  background-color: #00439C;
+  color: white;
+}
+
+footer ul{
+  list-style: none;
+}
+
+footer li a{
+  text-decoration: none;
+  color: white;
+}
+
+#sie{
+  width: 25%;
+}
+
+#logofo{
+  width: 18%;
+  margin-bottom: 10px;
+}
+
+#siecol{
+  padding-top: 20px;
+}
