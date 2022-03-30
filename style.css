@@ -43,20 +43,26 @@ h6{
 
 /*HEADER*/
 
+.bianco{
+  background-color: white;
+  height: 80px;
+}
 
+.bianco img{
+  height: 100%;
+}
+
+header ul{
+  margin: 0;
+}
 
 header .top{
   height: 50px;
   background-color: black;
 }
 
-header .menu{
-  height: 80px;
-  background-color: white;
-}
-
-header img{
-  height: 100%;
+.top img{
+  height: 20px;
 }
 
 .naviga ul{
