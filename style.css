@@ -94,6 +94,7 @@ header .top{
 
 /*SEZIONE RETTANGOLI SOTTO JUMBO*/
 
+
 .sju .row .col img{
   width: 100%;
   border-radius: 15px;
@@ -191,11 +192,11 @@ footer li a{
 }
 
 #sie{
-  width: 25%;
+  width: 100px;
 }
 
 #logofo{
-  width: 18%;
+  width: 100px;
   margin-bottom: 10px;
 }
 
