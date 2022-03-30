@@ -43,6 +43,8 @@ h6{
 
 /*HEADER*/
 
+
+
 header .top{
   height: 50px;
   background-color: black;
@@ -50,11 +52,21 @@ header .top{
 
 header .menu{
   height: 80px;
-  background-color: blue;
+  background-color: white;
 }
 
 header img{
-  height: 20px;
+  height: 100%;
+}
+
+.naviga ul{
+  list-style: none;
+  color: black;
+}
+
+.naviga li{
+  display: inline-block;
+  padding-left: 10px;
 }
 
 .slide{
