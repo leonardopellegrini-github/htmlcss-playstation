@@ -1,5 +1,6 @@
 body{
   font-family: 'Open Sans', sans-serif;
+  scroll-behavior: smooth;
 }
 
 .h600{
@@ -21,7 +22,7 @@ body{
 
 a{
   border-radius: 25px !important;
-  padding: 10px 10px !important;
+  padding: 8px 8px !important;
 }
 
 h4{
@@ -43,7 +44,13 @@ h6{
 
 .bottonro{
   background-color: #CD3D0F !important;
-  border: none !important;
+  border: 0px solid white !important;
+}
+
+.bottonro:hover{
+  border: 2px solid black !important; 
+  outline: 3px solid #CD3D0F !important;
+  transition: 0.2s;
 }
 
 .buttongri{
@@ -53,6 +60,12 @@ h6{
   font-weight: 500 !important;
 }
 
+.buttongri:hover{
+  border: 2px solid #2D64E6 !important; 
+  outline: 3px solid #D9DADC !important;
+  transition: 0.2s;
+}
+
 .buttonbia{
   background-color: white !important;
   border: none !important;
@@ -60,14 +73,16 @@ h6{
   font-weight: 500 !important;
 }
 
-.bottonhead{
-  background-color: #363636 !important;
-  border: none !important;
+.buttonbia:hover{
+  border: 2px solid black !important; 
+  outline: 3px solid #D9DADC !important;
+  transition: 0.2s;
 }
 
-.bottonhead:hover{
-  margin: 2px;
-  border: 2px solid#363636 !important;
+.bstandard:hover{
+  border: 2px solid white !important;
+  outline: 3px solid #2D64E6 !important; 
+  background-color: #2D64E6 !important;
 }
 
 /*HEADER*/
@@ -104,12 +119,31 @@ header .top{
   padding-left: 10px;
 }
 
+
+.naviga li:hover{
+  color: #0070D1;
+}
+
+
+
 .slide{
   color: white;
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
 }
+
+.bottonhead{
+  background-color: #363636 !important;
+  border: 0px solid white !important;
+}
+
+.bottonhead:hover{
+  border: 2px solid white !important; 
+  outline: 2px solid #363636 !important;
+  transition: 0.2s;
+}
+
 
 /*JUMBOTRON*/
 
@@ -128,6 +162,11 @@ header .top{
 .sju .row .col img{
   width: 100%;
   border-radius: 15px;
+}
+
+.effesopra:hover{
+  margin-top: -10px;
+  transition-duration: 0.5s;
 }
 
 /*ECCO LA PLAYSTATION 5*/
@@ -217,6 +256,11 @@ footer ul{
 }
 
 footer li a{
+  text-decoration: none;
+  color: white;
+}
+
+footer li a:hover{
   text-decoration: none;
   color: white;
 }
