@@ -41,6 +41,35 @@ h6{
   border: none !important;
 }
 
+.bottonro{
+  background-color: #CD3D0F !important;
+  border: none !important;
+}
+
+.buttongri{
+  background-color: #D9DADC !important;
+  border: none !important;
+  color: #2D64E6 !important;
+  font-weight: 500 !important;
+}
+
+.buttonbia{
+  background-color: white !important;
+  border: none !important;
+  color: black!important;
+  font-weight: 500 !important;
+}
+
+.bottonhead{
+  background-color: #363636 !important;
+  border: none !important;
+}
+
+.bottonhead:hover{
+  margin: 2px;
+  border: 2px solid#363636 !important;
+}
+
 /*HEADER*/
 
 .bianco{
@@ -91,6 +120,7 @@ header .top{
 .slide img{
   width: 360px;
 }
+
 
 /*SEZIONE RETTANGOLI SOTTO JUMBO*/
 
